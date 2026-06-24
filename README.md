@@ -1,6 +1,6 @@
 # Click Spinner
 
-[![PyPI](https://img.shields.io/pypi/v/click-spinner.svg)](https://pypi.python.org/pypi/click-spinner/) [![Build Status](https://travis-ci.org/click-contrib/click-spinner.svg?branch=master)](https://travis-ci.org/click-contrib/click-spinner)
+[![PyPI](https://img.shields.io/pypi/v/click-spinner.svg)](https://pypi.python.org/pypi/click-spinner/)
 
 Sometimes you would just like to show the user some progress, 
 but a progress bar is not suitable because you don’t know how much longer it would take. 
@@ -28,7 +28,9 @@ Introduced in [PR #649](https://github.com/pallets/click/pull/649).
 pip install click-spinner
 ```
 
-Supports Python 2.7 and 3.
+Supports Python 3.8+.
+
+For Python &lt;3.8, use v0.1.11.
 
 ## Authors
 
